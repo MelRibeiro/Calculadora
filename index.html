@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type = "text/css" href ="style.css"/>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculadora-completa">
+        <button onclick="mudaTema()" id="tema">tema</button>
+    <header class="painel">
+      <h1 class="titulo">Calculadora</h1>
+      <p id="resultado" class="tela"></p>
+    </header>
+    <div class="parte-numero">
+        <div class="parte-um">
+            <button class="c" value="c" onclick="clean()">C</button>
+            <button class="parenteses-um" value="(" onclick="insert('(')">(</button>
+            <button class="parenteses-dois" value=")" onclick="insert(')')">)</button>
+            <button class="barra" value="divisao" onclick="insert('/')">/</button>
+        </div>
+        <div class="parte-dois" >
+            <button class="7" value="7" onclick="insert('7')">7</button>
+            <button class="8" value="8" onclick="insert('8')">8</button>
+            <button class="9" value="9" onclick="insert('9')">9</button>
+            <button class="x" value="multiplicacao" onclick="insert('*')">*</button>
+        </div>
+       <div class="parte-tres">
+            <button class="4" value="4" onclick="insert('4')">4</button>
+            <button class="5" value="5" onclick="insert('5')">5</button>
+            <button class="6" value="6" onclick="insert('6')">6</button>
+            <button class="menos" value="menos">-</button>
+        </div>
+        <div class="parte-quatro">
+            <button class="1" value="1" onclick="insert('1')">1</button>
+            <button class="2" value="2" onclick="insert('2')">2</button>
+            <button class="3" value="3" onclick="insert('3')">3</button>
+            <button class="mais" value="mais" onclick="insert('+')">+</button>
+        </div>
+        <div class="parte-cinco">
+            <button class="0" value="0" onclick="insert('0')">0</button>
+            <button class="." value="." onclick="insert('.')">.</button>
+            <button class="large-button" value="menos" onclick="calcular()">=</button>
+        </div>
+    </div> <!--penultima a fechar-->
+</div> <!--ultima a fechar-->
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

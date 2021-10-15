@@ -1,0 +1,102 @@
+* {
+    padding: 5px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+ background: linear-gradient(#F5BCDA, #F5CAE5);
+}
+
+#tema {
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 50px;
+  padding: 8px;
+  background: snow;
+  border-radius: 100px; 
+  border: 2px solid #f05085;
+  display:flex;
+}
+
+#tema button {
+    justify-content:center;
+    padding-top:7px;
+    border-radius: 30px;
+    background:#F5BCDA;
+    color: white;
+}
+#tema:hover {
+    background:#F5CAE5;
+}
+
+.calculadora-completa {
+    background: white;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #DB7093; 
+}
+
+header {
+    background-color: snow;
+    border-radius:20px 20px 0px 0px;
+    color: #f05085;
+  }
+
+p {
+    border: solid #f05085;
+    background: snow;
+    color:#f05085;
+}
+
+.parte-numero {
+    padding: 15px;
+    background: snow;
+    box-shadow: 1px 1px 1px 1px white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.parte-numero button {
+    border: none;
+    width:90;
+    height:10;
+    background:snow;
+    text-align: center;
+ 
+}
+
+/*.c, .parenteses-um, .parenteses-dois, .x, .menos, .mais, .barra {
+    background-color: #F5BCDA;
+    box-shadow: 1px 1px 1px 1px #f858ad;
+    border-radius: 50%; */
+}
+
+.large-button {
+    background: steelblue;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.dark header {
+   background: #333439;
+  border: 1px solid #333439;
+}
+
+.dark .parte-numero {
+    background:#333439;
+}
+
+.dark p {
+    background: #333439;
+}
+
+.dark .parte-numero button {
+    background: #333439 ;
+}
+
+.dark .large-button {
+    background: steelblue;
+    border-radius: 20px;
+}
